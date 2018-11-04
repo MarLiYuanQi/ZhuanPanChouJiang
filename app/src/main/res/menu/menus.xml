@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/bar1"
+        android:title="bar011"
+        android:icon="@mipmap/ic_launcher"
+        app:showAsAction="always"
+        />
+    <item android:id="@+id/bar2"
+        android:title="bar022"
+        android:icon="@mipmap/ic_launcher"
+        app:showAsAction="always"
+        />
+    //showAsAction这个属性的值有：
+    //1、always：使菜单项一直显示在ToolBar上。
+    //2、ifRoom：如果有足够的空间，这个值会使菜单项显示在ToolBar上。
+    //3、never：使菜单项永远都不出现在ToolBar上,在…的子项中显示。
+    //4、withText：使菜单项和它的图标，菜单文本一起显示。
+
+
+</menu>
